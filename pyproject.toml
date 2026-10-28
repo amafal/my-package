@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my-package-learnning"
+name = "my-package-learning"
 version = "0.1.1"
-description = "A python library for greeting and mathematicals operation"
+description = "A Python library for greetings and mathematical operations"
 requires-python = ">=3.9"
 dependencies = []
 
-[tools.setuptools.packages.find]
-include = ["my-package*"]
+[tool.setuptools.packages.find]
+include = ["my_package*"]
